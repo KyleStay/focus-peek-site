@@ -27,6 +27,8 @@ for (const expected of [
   "Limited Use",
   "Third-party media previews and video-site embeds can be disabled",
   "does not request access to Chrome's browsing history",
+  "personally identifiable information or personal communications",
+  "does not read, store, or send authentication credentials",
   "same-origin Reddit post metadata",
   "no account or publisher-controlled user database"
 ]) {
