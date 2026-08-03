@@ -1,5 +1,5 @@
 name: Privacy question
-description: Ask about local data, third-party previews, or deletion guidance
+description: Ask how Focus Peek processes page media, stores settings, or connects to preview providers
 title: "[Privacy]: "
 labels: [privacy]
 body:

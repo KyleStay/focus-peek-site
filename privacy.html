@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Focus Peek privacy policy.">
+  <meta name="description" content="How the Focus Peek browser extension processes page media and stores settings.">
   <title>Privacy Policy · Focus Peek</title>
   <link rel="icon" href="assets/icon-128.png">
   <link rel="stylesheet" href="assets/styles.css">
@@ -15,33 +15,42 @@
   </header>
   <main class="document">
     <p class="eyebrow">Effective August 3, 2026</p>
-    <h1>Privacy Policy</h1>
-    <p class="lede">Focus Peek runs locally in your browser. It does not operate a tracking, analytics, advertising, account, or publisher-backend service.</p>
+    <h1>Focus Peek Privacy Policy</h1>
+    <p class="lede">Focus Peek previews images, audio, videos, and galleries without making you leave the current page. It runs in your browser and does not operate user accounts, analytics, advertising, tracking, or a publisher-controlled backend.</p>
 
-    <h2>Data Focus Peek handles</h2>
-    <p>To provide media previews, Focus Peek handles the current page URL, page media URLs, limited visible page content associated with a preview target (such as a caption), and hover or keyboard activity used to open and control a preview. This website content and browsing activity is processed locally and is not collected by or sent to the publisher.</p>
+    <h2>Information Focus Peek processes</h2>
+    <p>Focus Peek examines the current page only to provide its preview features. It may process the current page URL; URLs of links, images, audio, videos, and embeds; visible information associated with a preview target, such as a caption, alt label, display name, username, or nearby user-authored text; media type, dimensions, and gallery items; and the hover, keyboard, pointer, or wheel actions used to control a preview.</p>
+    <p>The action popup reads the active tab URL locally to show controls for the current site. Focus Peek does not request access to Chrome's browsing history. This information is processed locally and is not collected by or sent to the publisher. It is not used to identify, profile, or contact anyone.</p>
 
-    <h2>How the data is used</h2>
-    <p>Focus Peek uses page content and interaction data only to identify the media you asked to preview, render and control that preview, and apply local site and privacy settings. The publisher does not sell, share, or transfer this data and does not use it for advertising, credit decisions, analytics, or any purpose unrelated to the extension's single purpose.</p>
+    <h2>Information stored on your device</h2>
+    <p>Focus Peek uses Chrome's local extension storage for preview and interaction preferences, keyboard shortcut overrides, pause state, enabled and disabled site lists, and user-authored custom preview rules. This storage is not a publisher database and is not sent to the publisher.</p>
+    <p>Local settings remain until you change or reset them, clear Focus Peek's extension storage, or uninstall the extension. Focus Peek does not retain page content, browsing activity, preview history, or interaction events on publisher-controlled systems.</p>
 
-    <h2>Local storage and retention</h2>
-    <p>Settings, site lists, pause state, and user-authored rules are stored in browser extension storage. Focus Peek does not retain website content, browsing activity, or interaction events on publisher-controlled systems. Local data remains until you edit it, reset the extension, clear extension storage, or uninstall Focus Peek.</p>
+    <h2>Media and network requests</h2>
+    <p>Focus Peek has access to web pages because it must inspect the target you choose and place a preview on that page. It does not continuously upload page content or browsing activity.</p>
+    <p>After a hover or keyboard action, a preview may ask the browser to load the selected image, audio, or video; a higher-resolution version identified from the current page or one of your custom rules; a supported provider's embedded player when embeds are enabled; or same-origin Reddit post metadata needed to resolve a Reddit video or gallery.</p>
+    <p>Those requests go directly from your browser to the media host or player provider, not through a Focus Peek server. The destination may receive ordinary request information such as your IP address, the requested resource, and headers or cookies your browser normally sends there. A same-origin Reddit metadata request may use your existing Reddit session. Focus Peek does not read, store, or send account credentials to the publisher.</p>
+    <p>The destination handles these requests under its own privacy policy. Focus Peek does not add a publisher account identifier or receive a copy of the request. Third-party media previews and video-site embeds can be disabled. Known tracking parameters are removed from preview and open URLs when that setting is enabled.</p>
 
-    <h2>Media and third-party providers</h2>
-    <p>Preview requests happen only after user interaction with a page target. When a preview loads a third-party media URL or an optional provider embed, your browser connects directly to that media host or provider. That third party may receive ordinary request information such as your IP address and the requested resource and handles it under its own privacy policy. Focus Peek does not add an account identifier or send the publisher a copy of the request.</p>
-    <p>Third-party media previews and video-site embeds can be disabled. Video embeds use restricted iframe permissions and conservative referrer policies. Ordinary page metadata is not fetched or used to create previews.</p>
+    <h2>Extension code and embedded players</h2>
+    <p>Embedded players are provider content displayed in a restricted frame; they are not remotely hosted extension code. All executable extension code is included in the installed package. Focus Peek does not execute remotely hosted code.</p>
 
     <h2>Downloads and local files</h2>
-    <p>The downloads permission is used only when you explicitly save the active previewed media. Local file pages are supported only when Chrome and you allow extension access to those pages. Focus Peek does not preview or open local-file targets from ordinary web pages.</p>
+    <p>The downloads permission is used only after you explicitly save the active preview or export a local settings file. Focus Peek does not download media in the background.</p>
+    <p>Local file pages are supported only if you separately allow Chrome to give Focus Peek access to file URLs. Focus Peek does not preview or open local-file targets from ordinary web pages.</p>
 
-    <h2>Security and user control</h2>
-    <p>Focus Peek does not execute remotely hosted code. HTTPS media and provider URLs use encrypted transport supplied by the destination. You can block third-party requests, disable embeds, disable Focus Peek on individual sites, pause it, clear its settings, or uninstall it at any time.</p>
+    <h2>Sharing, sale, and human access</h2>
+    <p>Because Focus Peek does not send page content, browsing activity, settings, or interaction data to the publisher, the publisher does not sell, share, transfer, or allow people to read that information. It is not used for advertising, analytics, credit decisions, or purposes unrelated to Focus Peek's preview features.</p>
 
-    <h2>Limited Use</h2>
-    <p>Focus Peek's use of information is limited to providing and improving its single-purpose, user-facing media preview features, consistent with the Chrome Web Store User Data Policy's Limited Use requirements.</p>
+    <h2>Your controls</h2>
+    <p>You can block new third-party preview requests, disable provider embeds, disable Focus Peek on individual sites, use enabled-only mode, require a modifier or keyboard action, pause the extension, reset its settings, or uninstall it. Preview media may remain temporarily in your browser's normal cache or be retained by a media provider under that provider's own practices.</p>
 
-    <h2>Contact</h2>
-    <p>For privacy questions or deletion guidance, <a href="https://github.com/KyleStay/focus-peek-site/issues/new?template=privacy.yml">open a privacy request</a>. Do not include private page URLs, account details, or sensitive screenshots in a public issue.</p>
+    <h2>Chrome Web Store Limited Use</h2>
+    <p>Focus Peek's handling of information is limited to providing its single-purpose, user-facing media preview features and complies with the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+
+    <h2>Local data removal and contact</h2>
+    <p>Focus Peek has no account or publisher-controlled user database, so there is no server-side Focus Peek data to request or delete. To remove locally stored settings, reset Focus Peek, clear its extension storage, or uninstall it.</p>
+    <p>For questions about this policy, <a href="https://github.com/KyleStay/focus-peek-site/issues/new?template=privacy.yml">ask a privacy question</a>. Public GitHub issues are visible to everyone, so do not include private URLs, account information, personal data, or sensitive screenshots.</p>
   </main>
   <footer><span>© 2026 Focus Peek</span><span><a href="index.html">Home</a><a href="support.html">Support</a></span></footer>
 </body>

@@ -25,7 +25,10 @@ for (const expected of [
   "not collected by or sent to the publisher",
   "does not execute remotely hosted code",
   "Limited Use",
-  "Third-party media previews and video-site embeds can be disabled"
+  "Third-party media previews and video-site embeds can be disabled",
+  "does not request access to Chrome's browsing history",
+  "same-origin Reddit post metadata",
+  "no account or publisher-controlled user database"
 ]) {
   if (!privacy.includes(expected)) failures.push(`privacy.html is missing: ${expected}`);
 }
