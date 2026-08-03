@@ -1,0 +1,39 @@
+name: Bug report
+description: Report something that is not working as expected
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve Focus Peek. Do not include private URLs, account details, or sensitive screenshots.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open a public page…\n2. Hover over…\n3. See…"
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options: [Chrome, Edge, Chromium, Other]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Focus Peek version
+      placeholder: "0.1.0"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional details
+      description: Include only information safe to post publicly.

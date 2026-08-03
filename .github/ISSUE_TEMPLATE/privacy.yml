@@ -1,0 +1,14 @@
+name: Privacy question
+description: Ask about local data, third-party previews, or deletion guidance
+title: "[Privacy]: "
+labels: [privacy]
+body:
+  - type: markdown
+    attributes:
+      value: This is a public issue. Do not include private URLs, account information, personal data, or sensitive screenshots.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
